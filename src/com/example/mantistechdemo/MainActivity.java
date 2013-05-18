@@ -21,5 +21,5 @@ public class MainActivity extends Activity
 		getMenuInflater().inflate(R.menu.activity_main, menu);
 		return true;
 	}
-
+	//this is a test comment
 }
