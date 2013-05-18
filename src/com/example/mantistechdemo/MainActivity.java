@@ -6,7 +6,7 @@ import android.view.Menu;
 
 public class MainActivity extends Activity
 {
-
+// also a commit test
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
 	{
