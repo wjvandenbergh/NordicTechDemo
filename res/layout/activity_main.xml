@@ -5,10 +5,36 @@
     tools:context=".MainActivity" >
 
     <TextView
+        android:id="@+id/generatedNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="@string/hello_world" />
+        android:text="" />
+
+    <Button
+        android:id="@+id/rollButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Roll!" />
+
+    <Spinner
+        android:id="@+id/diceChoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/spinnerLabel" />
+
+    <TextView
+        android:id="@id/spinnerLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/diceChoice"
+        android:layout_marginBottom="19dp"
+        android:layout_marginRight="27dp"
+        android:layout_toLeftOf="@+id/rollButton"
+        android:text="D" />
 
 </RelativeLayout>
